@@ -20,6 +20,7 @@ The `Connect` component accepts two props:
    - `stroke?: "dashed" | "solid"` – the look of the line (`solid` is default)
    - `edge?: "bezier" | "step"` – the curve of the line (`bezier` is default)
    - `color?: string` – the color of the line (`#000000` is default)
+   - `hasArrows?: boolean` – the triangles at the end of the line (`true` is default)
 
 #### Example
 
