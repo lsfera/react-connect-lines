@@ -235,7 +235,7 @@ export function ConnectLines(props: ConnectLinesProps) {
               strokeWidth="2"
               strokeDasharray={p?.stroke === 'dashed' ? 4 : 0}
               strokeLinejoin="round"
-              markerEnd={p?.hasArrows ? `url(#triangle-${p?.color})` : `url(#line-${p?.color})`}
+              markerEnd={`url(#${p?.hasArrows ? `triangle` : `line`}-${p?.color})`}
             />
           )
         })}
