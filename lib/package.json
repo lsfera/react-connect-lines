@@ -10,8 +10,8 @@
   "exports": {
     ".": {
       "require": "./dist/cjs/index.js",
-      "default": "./dist/esm/index.js",
-      "types": "./dist/types/index.d.ts"
+      "types": "./dist/types/index.d.ts",
+      "default": "./dist/esm/index.js"
     }
   },
   "source": "./index.ts",
@@ -33,7 +33,7 @@
     "typescript": ">=3.0.0"
   },
   "peerDependencies": {
-    "react": "^17.0.2"
+    "react": "^18.0.2"
   },
   "publishConfig": {
     "access": "public"
